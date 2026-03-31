@@ -1,16 +1,23 @@
-# React + Vite
+# DigiTools - Premium Digital Marketplace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DigiTools is a modern high performance web application designed for users to browse and purchase premium digital tools, AI assets, and templates. Built with a focus on seamless user experience it features a dynamic cart system and a responsive sleek interface inspired by professional design standards.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+[Check out the live site here](https://digitools-ai.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Key Features
 
-## React Compiler
+* **Dynamic Product Toggling :** Effortlessly switch between the "Products" grid and your "Shopping Cart" with a smooth animated toggle bar.
+* **Smart Shopping Cart :** * Real time cart count updates in the Navbar.
+    * One click "Buy Now" updates the button state to "Added to Cart" for visual confirmation.
+    * Interactive cart management allowing users to remove items or clear the entire cart upon checkout.
+* **Fully Responsive & Interactive UI :** Optimized for all screen sizes (Mobile to Desktop) with custom tailored Tailwind animations and interactive elements like pricing plan highlights and step by step guides.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Frontend Framework :** React.js
+* **Styling :** Tailwind CSS & DaisyUI
+* **Icons :** React Icons (Font Awesome 6)
+* **Notifications :** React Toastify
+* **Fonts :** Manrope
+* **Data Handling :** Dynamic JSON integration for product listings
