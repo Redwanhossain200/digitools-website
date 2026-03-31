@@ -26,7 +26,7 @@ const Pricing = () => {
             <button className="w-full cursor-pointer py-3 px-6 bg-linear-to-r from-indigo-600 to-purple-600 text-white font-bold rounded-4xl transition-all hover:scale-105 hover:shadow-lg active:scale-95 mt-4">Get Started Free</button>
           </div>
 
-          <div className="relative flex-1 flex cursor-pointer flex-col bg-linear-to-b from-[#8B5CF6] to-[#7C3AED] p-8 rounded-3xl shadow-xl text-white md:scale-105 z-10 group transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:brightness-110">
+          <div className="relative flex-1 flex cursor-pointer flex-col bg-linear-to-b from-[#8B5CF6] to-[#7C3AED] p-8 rounded-3xl shadow-xl text-white md:scale-105 z-10 group transition-all duration-300 hover:shadow-2xl hover:brightness-110">
             <span className="absolute -top-4 left-1/2 -translate-x-1/2 bg-[#FEF3C6] text-[#BB4D00] text-xs font-bold px-4 py-1.5 rounded-full shadow-md animate-pulse">Most Popular</span>
             <div className="grow">
               <h3 className="text-2xl font-bold group-hover:text-yellow-100">Pro</h3>
