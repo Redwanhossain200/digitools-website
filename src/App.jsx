@@ -3,6 +3,7 @@ import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import Navbar from './components/Navbar'
 import Header from './components/Header'
+import Stats from './components/Stats'
 import './App.css'
 
 function App() {
@@ -67,6 +68,8 @@ function App() {
         <Navbar cart={cart} setActiveTab={setActiveTab}></Navbar>
 
         <Header></Header>
+
+        <Stats></Stats>
       </div>
     </>
   )
