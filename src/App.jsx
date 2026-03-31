@@ -8,7 +8,8 @@ import MainSection from './components/MainSection'
 import Steps from './components/Steps'
 import Pricing from './components/Pricing'
 import CTA from './components/CTA'
-import './App.css'
+import Footer from './components/Footer'
+
 
 function App() {
   const [products, setProducts] = useState([]);
@@ -83,7 +84,7 @@ function App() {
 
         <CTA></CTA>
 
-        
+        <Footer></Footer>
       </div>
     </>
   )
