@@ -6,6 +6,7 @@ import Header from './components/Header'
 import Stats from './components/Stats'
 import MainSection from './components/MainSection'
 import Steps from './components/Steps'
+import Pricing from './components/Pricing'
 import './App.css'
 
 function App() {
@@ -76,6 +77,8 @@ function App() {
         <MainSection products={products} cart={cart} activeTab={activeTab} addedIds={addedIds} setActiveTab={setActiveTab} handleAddToCart={handleAddToCart} handleRemove={handleRemove} handleCheckout={handleCheckout} totalCost={totalCost} getTagStyles={getTagStyles}></MainSection>
 
         <Steps></Steps>
+
+        <Pricing></Pricing>
       </div>
     </>
   )
