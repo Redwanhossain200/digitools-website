@@ -7,6 +7,7 @@ import Stats from './components/Stats'
 import MainSection from './components/MainSection'
 import Steps from './components/Steps'
 import Pricing from './components/Pricing'
+import CTA from './components/CTA'
 import './App.css'
 
 function App() {
@@ -79,6 +80,10 @@ function App() {
         <Steps></Steps>
 
         <Pricing></Pricing>
+
+        <CTA></CTA>
+
+        
       </div>
     </>
   )
