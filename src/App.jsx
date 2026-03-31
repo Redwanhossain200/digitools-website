@@ -4,6 +4,7 @@ import 'react-toastify/dist/ReactToastify.css'
 import Navbar from './components/Navbar'
 import Header from './components/Header'
 import Stats from './components/Stats'
+import MainSection from './components/MainSection'
 import './App.css'
 
 function App() {
@@ -70,6 +71,8 @@ function App() {
         <Header></Header>
 
         <Stats></Stats>
+
+        <MainSection products={products} cart={cart} activeTab={activeTab} addedIds={addedIds} setActiveTab={setActiveTab} handleAddToCart={handleAddToCart} handleRemove={handleRemove} handleCheckout={handleCheckout} totalCost={totalCost} getTagStyles={getTagStyles}></MainSection>
       </div>
     </>
   )
