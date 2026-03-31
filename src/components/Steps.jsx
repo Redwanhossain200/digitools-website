@@ -6,7 +6,7 @@ const Steps = () => {
   return (
     <section id="steps" className="bg-[#F9FAFC] py-16 px-4">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-5xl font-bold text-gray-900 mb-4">Get Started In 3 Steps</h2>
+        <h2 className="text-4xl font-bold text-gray-900 mb-4">Get Started In 3 Steps</h2>
         <p className="text-gray-500 mb-10">Start using premium digital tools in minutes, not hours.</p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[

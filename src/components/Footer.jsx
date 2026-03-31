@@ -1,4 +1,4 @@
-import { FaInstagram, FaFacebookF } from 'react-icons/fa';
+import { FaInstagram, FaFacebookF, FaXTwitter } from 'react-icons/fa6';
 
 const Footer = () => {
   return (
@@ -54,7 +54,7 @@ const Footer = () => {
                 <FaFacebookF />
               </button>
               <button className="w-9 h-9 cursor-pointer bg-white rounded-full flex items-center justify-center text-[#0b1120] hover:bg-gray-200 transition">
-                <span className="font-bold text-xs">X</span>
+                <FaXTwitter />
               </button>
             </div>
           </div>

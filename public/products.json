@@ -38,7 +38,7 @@
     "description": "Automate repetitive tasks and streamline your workflow with powerful tools.",
     "price": 79,
     "period": "monthly",
-    "tag": "Expert",
+    "tag": "Popular",
     "tagType": "primary",
     "features": ["50+ automation's", "API access", "Custom workflows"],
     "icon": "/products/operation.png"
@@ -60,7 +60,7 @@
     "description": "Complete toolkit for creating engaging social media content across all platforms.",
     "price": 39,
     "period": "monthly",
-    "tag": "Hot Sale",
+    "tag": "Best Seller",
     "tagType": "error",
     "features": ["5000+ Assets", "Scheduler included", "Analytics dashboard"],
     "icon": "/products/social-media.png"

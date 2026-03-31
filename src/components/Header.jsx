@@ -1,12 +1,15 @@
 import banner from '../assets/banner.png';
-import { FaPlay } from 'react-icons/fa';
+import { FaPlay } from 'react-icons/fa6';
 
 const Header = () => {
   return (
     <header className="px-6 lg:px-20 py-16 flex flex-col lg:flex-row items-center gap-12 bg-gray-50">
       <div className="flex-1 text-center lg:text-left">
-        <span className="bg-[#e1e7ff] text-[#7F27FF] px-4 py-2 rounded-full text-sm font-bold uppercase tracking-wider inline-flex items-center"><span className="w-2.5 h-2.5 bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full inline-block mr-2 shadow-xl shadow-[#4F39F6]  animate-pulse"></span>New: AI-Powered Tools Available</span>
-        <h2 className="text-4xl lg:text-5xl font-extrabold mt-6 leading-tight text-gray-900">
+        <span className="bg-[#e1e7ff] text-[#7F27FF] px-4 py-2 rounded-full text-[12px] md:text-sm font-bold uppercase tracking-wider inline-flex items-center justify-center text-center max-w-full sm:max-w-max mx-auto leading-tight">
+          <span className="shrink-0 w-2 h-2 md:w-2.5 md:h-2.5 bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full inline-block mr-2 shadow-xl shadow-[#4F39F6] animate-pulse"></span>
+          New: AI-Powered Tools Available
+        </span>
+        <h2 className="text-3xl lg:text-5xl font-extrabold mt-6 leading-tight text-gray-900">
           Supercharge Your <br /> <span className="text-[#7F27FF]">Digital Workflow</span>
         </h2>
         <p className="mt-6 text-[#627382] text-lg leading-relaxed max-w-xl">

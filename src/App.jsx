@@ -55,9 +55,9 @@ function App() {
 
   const getTagStyles = (type) => {
     const styles = {
-      warning: "bg-[#FFF9E5] text-[#FFB800]",
-      secondary: "bg-[#F0EEFF] text-[#7F27FF]",
-      success: "bg-[#E7F9EE] text-[#00C48C]",
+      warning: "bg-[#FEF3C6] text-[#BB4D00]",
+      secondary: "bg-[#E1E7FF] text-[#7F27FF]",
+      success: "bg-[#DBFCE7] text-[#0A883E]",
       primary: "bg-[#EBF2FF] text-[#007AFF]",
       accent: "bg-[#F9EEFF] text-[#B800FF]",
       error: "bg-[#FFE9E9] text-[#FF4D4F]"
