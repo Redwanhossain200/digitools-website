@@ -80,7 +80,6 @@ const MainSection = ({ products, cart, activeTab, addedIds, setActiveTab, handle
         {activeTab === 'cart' && (
           <div className="mt-16 max-w-6xl mx-auto">
             <div className="bg-white border-2 border-gray-100 p-8 rounded-3xl shadow-sm text-left">
-
               <h3 className="text-xl font-bold text-gray-800 mb-6">Your Cart</h3>
 
               {cart.length === 0 ? (

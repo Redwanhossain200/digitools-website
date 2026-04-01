@@ -15,7 +15,6 @@ function App() {
   const [cart, setCart] = useState([]);
   const [activeTab, setActiveTab] = useState('products');
   const [addedIds, setAddedIds] = useState([]);
-
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
@@ -33,22 +32,20 @@ function App() {
       setCart([...cart, product]);
       setAddedIds([...addedIds, product.id]);
       toast.success("Added to cart successfully!");
-
-      setTimeout(() => {
-        setAddedIds(prev => prev.filter(id => id !== product.id));
-      }, 3000);
     }
   };
 
   const handleRemove = (id) => {
     const updatedCart = cart.filter(item => item.id !== id);
     setCart(updatedCart);
+    setAddedIds(addedIds.filter(addedId => addedId !== id));
     toast.error("Removed from cart");
   };
 
   const handleCheckout = () => {
     if (cart.length === 0) return toast.warning("Cart is empty!");
     setCart([]);
+    setAddedIds([]);
     toast.success("Proceeding to checkout! Cart cleared.");
   };
 
@@ -78,9 +75,8 @@ function App() {
           setIsMenuOpen={setIsMenuOpen}
         />
 
-        <Banner></Banner>
-
-        <Stats></Stats>
+        <Banner />
+        <Stats />
 
         <MainSection
           products={products}
@@ -95,13 +91,13 @@ function App() {
           getTagStyles={getTagStyles}
         />
 
-        <Steps></Steps>
-        <Pricing></Pricing>
-        <CTA></CTA>
-        <Footer></Footer>
+        <Steps />
+        <Pricing />
+        <CTA />
+        <Footer />
       </section>
     </>
   )
 }
 
-export default App
+export default App;
