@@ -3,7 +3,7 @@
 DigiTools is a modern high performance web application designed for users to browse and purchase premium digital tools, AI assets, and templates. Built with a focus on seamless user experience it features a dynamic cart system and a responsive sleek interface inspired by professional design standards.
 
 ## 🚀 Live Demo
-[Check out the live site here](https://digitools-ai.netlify.app/)
+[Check out the live site here](https://digitools-bd.netlify.app/)
 
 ## ✨ Key Features
 
