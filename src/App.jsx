@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import Navbar from './components/Navbar'
-import Header from './components/Header'
+import Banner from './components/Banner'
 import Stats from './components/Stats'
 import MainSection from './components/MainSection'
 import Steps from './components/Steps'
@@ -10,12 +10,13 @@ import Pricing from './components/Pricing'
 import CTA from './components/CTA'
 import Footer from './components/Footer'
 
-
 function App() {
   const [products, setProducts] = useState([]);
   const [cart, setCart] = useState([]);
   const [activeTab, setActiveTab] = useState('products');
   const [addedIds, setAddedIds] = useState([]);
+
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
     fetch(`./products.json`)
@@ -35,7 +36,7 @@ function App() {
 
       setTimeout(() => {
         setAddedIds(prev => prev.filter(id => id !== product.id));
-      }, 2000);
+      }, 3000);
     }
   };
 
@@ -67,25 +68,38 @@ function App() {
 
   return (
     <>
-      <div className="min-h-screen bg-white">
+      <section className="min-h-screen bg-white">
         <ToastContainer position="top-right" autoClose={1500}></ToastContainer>
 
-        <Navbar cart={cart} setActiveTab={setActiveTab}></Navbar>
+        <Navbar
+          cart={cart}
+          setActiveTab={setActiveTab}
+          isMenuOpen={isMenuOpen}
+          setIsMenuOpen={setIsMenuOpen}
+        />
 
-        <Header></Header>
+        <Banner></Banner>
 
         <Stats></Stats>
 
-        <MainSection products={products} cart={cart} activeTab={activeTab} addedIds={addedIds} setActiveTab={setActiveTab} handleAddToCart={handleAddToCart} handleRemove={handleRemove} handleCheckout={handleCheckout} totalCost={totalCost} getTagStyles={getTagStyles}></MainSection>
+        <MainSection
+          products={products}
+          cart={cart}
+          activeTab={activeTab}
+          addedIds={addedIds}
+          setActiveTab={setActiveTab}
+          handleAddToCart={handleAddToCart}
+          handleRemove={handleRemove}
+          handleCheckout={handleCheckout}
+          totalCost={totalCost}
+          getTagStyles={getTagStyles}
+        />
 
         <Steps></Steps>
-
         <Pricing></Pricing>
-
         <CTA></CTA>
-
         <Footer></Footer>
-      </div>
+      </section>
     </>
   )
 }
