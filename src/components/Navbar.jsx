@@ -10,7 +10,7 @@ const Navbar = ({ cart, setActiveTab, isMenuOpen, setIsMenuOpen }) => {
     <nav className="sticky top-0 bg-white/80 backdrop-blur-md z-100 border-b transition-all duration-300 border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-20 py-4 flex justify-between items-center">
 
-        <h1 className="text-xl md:text-4xl font-bold bg-linear-to-r from-[#4F39F6] via-[#9514FA] to-[#4F39F6] bg-clip-text text-transparent animate-gradient-text shrink-0">
+        <h1 className="text-3xl md:text-4xl font-bold bg-linear-to-r from-[#4F39F6] via-[#9514FA] to-[#4F39F6] bg-clip-text text-transparent animate-gradient-text shrink-0">
           DigiTools
         </h1>
 

@@ -44,7 +44,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center lg:items-start">
             <h3 className="text-white font-semibold mb-4">Social Links</h3>
             <div className="flex justify-center md:justify-start space-x-3">
               <button className="w-9 h-9 cursor-pointer bg-white rounded-full flex items-center justify-center text-[#0b1120] hover:bg-gray-200 hover:-translate-y-2 hover:shadow-2xl transition">
