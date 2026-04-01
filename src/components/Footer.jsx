@@ -6,10 +6,10 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto px-6 pt-10 pb-10">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
           <div className="lg:col-span-1">
-            <h2 className="bg-linear-to-r from-[#4F39F6] via-[#9514FA] to-[#4F39F6] bg-clip-text text-transparent text-3xl font-bold mb-4 animate-gradient-text">
+            <h2 className="bg-linear-to-r from-[#4F39F6] via-[#9514FA] to-[#4F39F6] bg-clip-text text-transparent text-3xl font-bold mb-3 animate-gradient-text">
               DigiTools
             </h2>
-            <p className="text-lg leading-relaxed max-w-xs">
+            <p className="text-sm leading-relaxed max-w-xs">
               Premium digital tools for creators, professionals, and businesses. Work smarter with our suite of powerful tools.
             </p>
           </div>
